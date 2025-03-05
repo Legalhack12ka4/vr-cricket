@@ -1,0 +1,322 @@
+@font-face {
+    font-family: 'Semakin';
+    src: url('../fonts/Semakin.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Semakin', sans-serif;
+    background-image: url("images/FRAME.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    padding: 0 40px;
+}
+
+.navbar {
+    padding: 37px 0px 41px 0px !important;
+}
+
+.navbar-nav {
+    align-items: center;
+    display: flex;
+}
+
+.navbar-collapse {
+
+    text-align: center;
+}
+
+.divider {
+    border-left: 1px solid #fff;
+    height: 25px;
+}
+
+.team-btn {
+    display: flex;
+    gap: 32px;
+}
+
+.btn-secondary {
+    padding: 10px 13px;
+    box-shadow: 0px 4px 4px 0px #0000001A;
+    background: linear-gradient(97.9deg, rgba(169, 120, 120, 0.4) -95.24%, rgba(29, 10, 25, 0.4) 185.93%);
+    background-blend-mode: screen;
+    border-radius: 0%;
+    border: transparent;
+    font-family: Semakin;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 17px;
+    line-height: 30px;
+    width: 100%;
+}
+
+.btn-secondary:hover {
+    cursor: url('/icons/cursor.svg'), auto;
+}
+
+.admin-text {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 13.66px;
+    text-align: center;
+    letter-spacing: 1.615px;
+    margin-bottom: -14px;
+}
+
+.competition-btn {
+    box-shadow: 0px 4px 4px 0px #0000001A;
+    background: #721212;
+    font-family: Semakin;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 1.615px;
+    height: 50px;
+    color: #fff;
+}
+
+.competition-input {
+    box-shadow: 0px 4px 4px 0px #0000001A;
+    background: #00000066;
+    font-size: 15px;
+    font-weight: 400;
+    height: 50px;
+    border: none;
+    font-family: 'Unica One', sans-serif;
+    cursor: pointer;
+    border-radius: 0%;
+}
+
+.competition-input::placeholder {
+    font-weight: 400;
+    letter-spacing: 1.8px;
+    color: #838383;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.615px;
+    text-transform: uppercase;
+}
+
+.drp {
+    box-shadow: 0px 4px 4px 0px #0000001A;
+    background: #721212;
+    font-size: 17px;
+    height: 50px;
+    color: #fff;
+    padding: 10px 13px;
+    background-blend-mode: screen;
+    border-radius: 0%;
+    border: transparent;
+    font-family: Semakin;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 17px;
+    line-height: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.drp:hover {
+    background: #721212;
+}
+
+.btn-secondary1 {
+    font-family: 'Unica One', sans-serif;
+    width: 164px;
+    box-shadow: 0px 4px 4px 0px #0000001A;
+    background: #00000066;
+    color: #D68A3C;
+    font-family: Unica One;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.615px;
+    height: 50px;
+    border-radius: 0%;
+}
+
+.btn-secondary1:hover {
+    background-color: #2a0000;
+}
+
+.dropdown-menu {
+    background: #2a0000;
+    border: none;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+
+.select-container {
+    width: 100%;
+}
+
+.selectpicker {
+    background: #00000066;
+    background-blend-mode: luminosity;
+    box-shadow: 0px 4px 4px 0px #0000001A;
+    padding: 17px 25px;
+    font-family: Unica One;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    color: #D68A3C;
+    font-family: 'Unica One', sans-serif;
+    height: 155px;
+
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background: #b22222;
+    color: white;
+}
+
+.btn-saveData {
+    background: #721212;
+    box-shadow: 0px 4px 4px 0px #0000001A;
+    font-family: 'Unica One', sans-serif;
+    border: transparent;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 1.615px;
+    color: #fff;
+    border-radius: 0%;
+    height: 32px;
+    align-items: center;
+}
+
+
+.btn-saveData:hover {
+    background: #721212;
+    cursor: url('/icons/cursor.svg'), auto;
+}
+
+
+.btn-player {
+    background: #721212;
+    box-shadow: 0px 4px 4px 0px #0000001A;
+    font-family: 'Unica One', sans-serif;
+    border: transparent;
+    font-family: Semakin;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 1.615px;
+    justify-content: center;
+    color: #fff;
+    border-radius: 0%;
+    height: 50px;
+    align-items: center;
+    width: 284px;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.image1 {
+    position: absolute;
+    z-index: 999;
+    margin-top: -71px;
+    margin-left: -8px;
+}
+
+.added-image {
+    position: absolute;
+    z-index: 999;
+    margin-top: -62px;
+    margin-left: -2px;
+}
+
+.main-player {
+    margin-top: 100px;
+}
+
+.player-card {
+    background: linear-gradient(to bottom, #5c0f0f, #310707);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    max-width: 250px;
+    position: relative;
+}
+
+.player-image {
+    width: 100%;
+    position: relative;
+}
+
+.player-name {
+    border: transparent;
+    font-family: Semakin;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    color: #fff;
+    border-radius: 0%;
+    height: 34px;
+    align-items: center;
+    padding: 4px;
+}
+
+.player-added-name {
+    background: #D68A3C;
+    box-shadow: 0px 4px 4px 0px #0000001A;
+    font-family: 'Unica One', sans-serif;
+    border: transparent;
+    font-family: Semakin;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    color: #fff;
+    border-radius: 0%;
+    height: 34px;
+    align-items: center;
+    padding: 4px;
+}
+
+.badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: white;
+    padding: 1px 2px;
+    border-radius: 50%;
+    border: 0.5px solid #FFFFFF;
+    width: 27px;
+    height: 27px;
+    z-index: 9999;
+    font-family: Unica One;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -5%;
+}
+
+.save-data {
+    padding: 30px;
+    background: #0B0C14;
+    margin-left: -50px;
+    margin-right: -40px;
+
+}
