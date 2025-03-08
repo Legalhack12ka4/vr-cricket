@@ -129,7 +129,7 @@ body {
 }
 
 .btn-secondary1 {
-    font-family: 'Unica One', sans-serif;
+    font-family: 'Unica One', sans-serif !important;
     width: 164px;
     box-shadow: 0px 4px 4px 0px #0000001A;
     background: #00000066;
@@ -159,11 +159,30 @@ body {
     width: 100%;
 }
 
+.selected {
+    background-color: #721212;
+    color: white;
+}
+
+.selectpicker .selected {
+    background-color: #721212 !important;
+    color: white !important;
+}
+
+.selectpicker option:checked {
+    background-color: #721212;
+    color: white;
+}
+
 .selectpicker {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    overflow: auto;
     background: #00000066;
     background-blend-mode: luminosity;
     box-shadow: 0px 4px 4px 0px #0000001A;
-    padding: 17px 25px;
+    padding: 17px 15px;
     font-family: Unica One;
     font-weight: 400;
     font-size: 20px;
